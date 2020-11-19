@@ -30,7 +30,7 @@ public class eshop_order {
     )
     private int id;
 
-    @Column(nullable = false)
+    @Column(nullable = false)  
     private int user_id;
     @Column(nullable = false)
     @OneToOne
